@@ -1,15 +1,15 @@
-# Miniproyecto: Planificador diario automatizado con 9 combinaciones
+# Mini-project: Automated Daily Planner with 9 combinations
 day = input("What day is it? ").strip().lower()
 time = input("What time of day? ").strip().lower()
 
-# Validación de entradas correctas
+# Input validation
 valid_days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 valid_times = ["morning", "afternoon", "evening"]
 
 if day not in valid_days or time not in valid_times:
     print("Suggestion: Enjoy your day! Please enter a valid day and time next time.")
 else:
-    # Lógica de decisiones por días y horas específicas
+    # Decision logic for specific days and times
     if day == "monday":
         if time == "morning":
             print("Suggestion: Set your goals for the week and grab a coffee.")
@@ -35,7 +35,7 @@ else:
             print("Suggestion: Perfect night for a movie or trying a new recipe.")
             
     else:
-        # Respuesta genérica para el resto de días válidos
+        # Generic response for the rest of the valid days
         if time == "morning":
             print("Suggestion: Keep up the good momentum with your daily routine.")
         elif time == "afternoon":
