@@ -1,0 +1,15 @@
+name,category,amount
+Alice,Food,12.50
+Bob,Transport,8.75
+Charlie,Utilities,
+Diana,Entertainment,25.00
+Eve,Food,not_a_number
+Frank,Health,45.00
+Grace,Shopping,19.99,extra_field
+Hank,Transport,15.00
+Ivy,Food,9.50
+Jack,Utilities,60.00
+Kara,Entertainment,
+Liam,Health,30.25
+Mia,Shopping,fifteen
+Noah,Food,11.00
